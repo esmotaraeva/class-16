@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.full-website{
+    width: 100%;
+    margin: 0 auto;
+}
+.fixed-width{
+    width: 1270px;
+    margin: 0 auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+img{
+    max-width: 100%;
+}
+.text-centr{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-rt{
+    text-align: right;
+}
+/* header section */
+.header{
+    background:#00b894;
+    padding: 20px;
+   
+}
+.header-1{
+    float: left;
+    width: 30%;
+}
+.header-1 h1{
+    color: rgb(222, 241, 247);
+}
+.header-2{
+    float: right;
+    width: 70%;
+}
+.header-2 ul{
+    text-align: right;
+
+}
+.header-2 ul li{
+    display: inline-block;
+}
+.header-2 ul li a{
+    display: block;
+    color: rgb(224, 235, 247);
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+/* banner section */
+.banner{
+    background: url(https://i.postimg.cc/FzVyQxjz/header-bg01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+
+}
+.bnr-text h1{
+    color: #fff;
+    font-size: 60px;
+}
+.bnr-text h2{
+    color: #fff;
+    margin-top:15px;
+
+}
+.bnr-text a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    margin-top: 35px;
+    color: #fff;
+    border-radius: 5px;
+}
+/* service section */
+.service{
+    margin-top: 80px;
+}
+.service h2{
+    font-size: 35px;
+    font-weight: 900;
+
+}
+.service p{
+    margin-top: 20px;
+
+}
+/* icon-part */
+.all-icon{
+    margin-top: 80px;
+}
+.icon{
+    width: 16%;
+    float: left;
+    margin-left:7% ;
+    text-align: center;
+}
+.icon span{
+    width: 50px;
+    height: 50px;
+    color:#00b894 ;
+    display: inline-block;
+    font-size: 40px;
+}
+.icon h3{
+    margin-top: 20px;
+}
+.icon p{
+    margin-top: 10px;
+}
+/* about part */
+.about{
+    border-top: 2px solid #00b894;
+    margin-top: 120px;
+
+}
+.about h2{
+    margin-top: 80px;
+
+}
+.about p{
+    margin-top: 20px;
+
+}
+/* article section */
+.article{
+    margin-top: 50px;
+}
+.article .pic{
+    float: left;
+    width: 40%;
+
+}
+.all-text{
+   
+}
+.all-text .text{
+    float: right;
+    width: 55%;
+    margin-bottom: 20px;
+    color: rgb(44, 43, 43);
+}
+.all-text .text h3{
+    font-size: 25px;
+    font-weight: 400;
+}
+.all-text .text p{
+    margin-top: 20px;
+}
+/* contact section */
+.main-contact{
+    background:#e4e6e7 ;
+    margin-top: 60px;
+    padding: 100px;
+}
+.contact{
+
+}
+.contact h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top:;
+}
+.contact p{
+    margin-top: 20px;
+}
+.contact-1{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.icon-1{
+    width: 20%;
+    display: inline-block;
+}
+
+.icon-1 span i{
+    color:#00b894 ;
+}
+/* social menu part */
+.social{
+    background:#00b894 ;
+    color: #fff;
+    padding: 10px;
+}
+.social ul{
+
+}
+.social ul li{
+    display: inline-block;
+    padding: 5px 10px;
+}
+.social ul li a{
+    color: #fff;
+}
+/* footer part */
+.footer{
+    background: rgb(49, 48, 48);
+    color: rgb(160, 160, 160);
+    padding: 15px;
+    text-align: center;
+}
